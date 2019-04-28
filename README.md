@@ -4,7 +4,7 @@ Simple Express REST API for getting latest instagram images by username.
 
 It will scrape images from public page of the user so no need to authenticate or use access tokens.
 
-## Install
+# Install
 
 ```sh
 npm install
