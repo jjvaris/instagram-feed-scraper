@@ -18,7 +18,7 @@ app.use(router);
 
 router.get('/api/health', (req, res) => res.sendStatus(200));
 
-router.get('/api/:username/images', (req, res) => {
+router.get('/api/instagram/:username/images', (req, res) => {
   const username = req.params.username;
   const cachedImages = cache.get(username);
   if (cachedImages) {
